@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #ffffff;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav{
+    width: 100%;
+}
+
+/* Logo styles */
+.logo-container {
+    flex: 1;
+    /* Logo takes up available space on the left */
+}
+
+.logo {
+    width: 170px;
+    /* Adjust logo width as needed */
+    height: auto;
+    padding-left: 10px;
+}
+
+.login-button,
+.signup-button {
+    padding: 10px 50px;
+    background: #ffffff;
+    color: #E22A90;
+    font-size: larger;
+    border: 2px solid;
+    /*background-image: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);*/
+    background-clip: padding-box;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+    transition: background 0.3s ease, color 0.3s ease, border-image 0.3s ease;
+}
+
+
+/* Navbar.css */
+.login-button {
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.login-button:hover,
+.signup-button:hover {
+    padding: 10px 50px;
+    background: #ffffff;
+    color: #ffffff;
+    font-size: larger;
+    text-align: center;
+    border: 2px solid;
+    background-image: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
+    background-clip: padding-box;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+    transition: background 0.3s ease, color 0.3s ease, border-image 0.3s ease;
+
+    /* Add this line to make the text bold on hover */
+}
+
+/* Login button styles */
+/* Login button styles */
+/* NavbarButtons.css */
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* Dropdown styles */
+/* ... Your existing styles ... */
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #3864B3;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.icon {
+    width: 25px;
+    /* Adjust the width as needed */
+    height: 16px;
+    /* Adjust the height as needed */
+    margin-right: 8px;
+    /* Adjust the margin as needed */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* NavbarLinks.css */
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0px;
+
+    /* Adjust margin as needed */
+}
+
+.navbar-link {
+    color: #3C5BA4;
+    font-family: 'Inter', sans-serif;
+    font-size:large;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #E22A90;
+    text-decoration:underline;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+.hamburger{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+@media (max-width:850px){
+   .login-button{
+    text-align: center;
+   }
+
+   .buttons-container{
+    padding: 1px 3px 1px 4px;
+   }
+
+    .login-button,
+.signup-button {
+    padding: 2px 30px;
+    font-size: small;
+    margin-right: 0px;
+    }
+
+    .hamburger{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
+
+@media  (max-width:415px) {
+
+    .navbar{
+        width: 100%;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .login-button{
+        font-size: 10px;
+        height: 30px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+@media (max-width:376px){
+    .navbar{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hamburger{
+        gap: 0px;
+    }
+
+    
+
+   
+}

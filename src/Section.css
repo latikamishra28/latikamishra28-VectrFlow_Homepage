@@ -1,0 +1,117 @@
+.heading-h-2-left4 {
+    font-family: "Inter` , sans-serif;";
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font: 1000 31px/71px "Inter", sans-serif;
+    background-image: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 4%;
+  }
+
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+
+  .group-34 {
+    width: 59px;
+    height: 56px;
+    margin-top: 20px;
+
+  }
+  
+  .rectangle-27 {
+    background: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
+    border-radius: 10px;
+    width: 59px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heart-rate-perspective-matte {
+    width: 30px;
+    height: 30px;
+    
+  }
+
+  .card-sm{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 30px 20px 30px 20px;
+    width: 45%;
+    height: 220px;
+    margin: 1%;
+    background: var(--gray-gray-50, #fafafa);
+    border-style: solid;
+    border-color: var(--shade-primary-lite-bg, #e7daed);
+    border-width: 1px;
+  }
+
+  .card-main-title {
+    color: var(--gray-gray-900, #1a202c);
+    text-align: left;
+    font: var(--headings-headings-h-4, 600 120%/136.52% "Inter", sans-serif);
+    width: 80%;
+   
+  }
+  .lcode{
+    color: var(--gray-gray-700, #4a5568);
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+   
+  }
+
+  .translate-to-code{
+    text-align: left;
+  font: var(--paragraphs-default, 400 14px/162.02% "Inter", sans-serif);
+  
+  }
+
+  @media (max-width:1376px){
+    .card{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card-sm{
+        width: 80%;
+    }
+
+    .card-sm3{
+        padding-bottom: 50px;
+    }
+  }
+  @media (max-width:738px){
+    .card{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card-sm{
+        width: 95%;
+    }
+  }
+
+  @media ( max-width:580px){
+
+
+    .card-sm{
+        display: flex;
+        flex-direction: column;
+        height: 22%;
+    }
+  }

@@ -1,0 +1,34 @@
+/* ... (existing styles) */
+
+/* Google Button */
+.Button-google {
+    background-color: #FFFFFF;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: background-clip 0.3s ease, color 0.3s ease;
+    background-clip: padding-box;
+    /* Add a transition for a smooth effect */
+}
+
+.Button-google:hover {
+    background-clip: padding-box;
+    background-image: linear-gradient(to right, #3C5BA4 , #E22A90 100%);
+    color: #FFFFFF;
+}
+
+/* GitHub Button */
+.Button-github {
+    background-color: #FFFFFF;
+    color: #E22A90;
+    border: 2px solid transparent;
+    transition: background-clip 0.3s ease, color 0.3s ease;
+    /* Add a transition for a smooth effect */
+}
+
+.Button-github:hover {
+    background-clip: padding-box;
+    background-image: linear-gradient(to right, #3C5BA4 , #E22A90 100%);
+    color: #FFFFFF;
+}
+
+/* ... (existing styles) */
